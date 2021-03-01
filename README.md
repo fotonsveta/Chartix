@@ -42,18 +42,18 @@
 	- Загрузить из json-файла
 
 ## Пример использования
-В бот можно загрузить тестовые значения из файла [[files/metrics.json]].
+В бот можно загрузить тестовые значения из файла [metrics.json](../main/files/metrics.json).
 Вызвать команду меню **/menu**
 ![Command-Menu](../main/files/Command-Menu.JPG)
 
 Меню Показатели
-![[Menu-Metric.JPG]]
+![Menu-Metric.JPG](../main/files/Menu-Metric.JPG)
 
 Можно посмотреть список значений
-![[Delete-Value-2.JPG]]
+![Delete-Value-2](../main/files/Delete-Value-2.JPG)
 
 И посмотрить график по ним
-![[plot141883194.png]]
+![plot141883194](../main/files/plot141883194.png)
 
 ## Особенности бота
 - Кнопочное меню динамически меняет состав кнопок в рамках одного сообщения (как у BotFather), то есть нажатие на кнопку не создает новое сообщение с новым набором кнопок.
