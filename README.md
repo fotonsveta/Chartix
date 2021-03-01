@@ -44,7 +44,7 @@
 ## Пример использования
 В бот можно загрузить тестовые значения из файла [[files/metrics.json]].
 Вызвать команду меню **/menu**
-![[files/Command-Menu.JPG]]
+![Command-Menu](../blob/main/files/Command-Menu.JPG)
 
 Меню Показатели
 ![[Menu-Metric.JPG]]
