@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chartix.Web", "Chartix.Web\Chartix.Web.csproj", "{FDD3EEB5-DDDA-45D4-8E87-3E0EBDE6325C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chartix.Core", "Chartix.Core\Chartix.Core.csproj", "{C1946E86-B060-4348-A2A3-9B44C3083F71}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chartix.Infrastructure", "Chartix.Infrastructure\Chartix.Infrastructure.csproj", "{96F73C28-8288-47AF-8BE9-AB07356B8216}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chartix.Tests", "Chartix.Tests\Chartix.Tests.csproj", "{E51679A8-6B46-450F-83D9-E1993C2D0F61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7F3F5110-3627-4D18-B2B8-0A79C3DB54B6}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDD3EEB5-DDDA-45D4-8E87-3E0EBDE6325C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDD3EEB5-DDDA-45D4-8E87-3E0EBDE6325C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDD3EEB5-DDDA-45D4-8E87-3E0EBDE6325C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDD3EEB5-DDDA-45D4-8E87-3E0EBDE6325C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1946E86-B060-4348-A2A3-9B44C3083F71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1946E86-B060-4348-A2A3-9B44C3083F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1946E86-B060-4348-A2A3-9B44C3083F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1946E86-B060-4348-A2A3-9B44C3083F71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96F73C28-8288-47AF-8BE9-AB07356B8216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96F73C28-8288-47AF-8BE9-AB07356B8216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96F73C28-8288-47AF-8BE9-AB07356B8216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96F73C28-8288-47AF-8BE9-AB07356B8216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E51679A8-6B46-450F-83D9-E1993C2D0F61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E51679A8-6B46-450F-83D9-E1993C2D0F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E51679A8-6B46-450F-83D9-E1993C2D0F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E51679A8-6B46-450F-83D9-E1993C2D0F61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C92481DE-F33C-424C-A5DF-295E8E8FA879}
+	EndGlobalSection
+EndGlobal
