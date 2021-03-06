@@ -23,7 +23,7 @@ namespace Chartix.Infrastructue.Repositories
 
         public T GetById(long id)
         {
-            return _dbSet.Where(p => p.Id == id).FirstOrDefault();
+            return _dbSet.Find(id);
         }
 
         public IEnumerable<T> Find(Specification<T> specification)
