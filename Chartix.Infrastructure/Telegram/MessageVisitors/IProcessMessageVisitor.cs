@@ -5,6 +5,6 @@ namespace Chartix.Infrastructure.Telegram.MessageVisitors
 {
     public interface IProcessMessageVisitor : IMessageVisitor
     {
-        Task SendTextMessageAsync(UpdateMessage message, MessageCode messageCode);
+        Task Process(UpdateMessage message);
     }
 }

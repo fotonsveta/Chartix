@@ -41,9 +41,9 @@ namespace Chartix.Infrastructure.Telegram.MessageVisitors
             return state == StateType.HasMetric ? MessageCode.Done : messageCode;
         }
 
-        public async Task SendTextMessageAsync(UpdateMessage message, MessageCode messageCode)
+        public async Task Process(UpdateMessage message)
         {
-            await _botClient.SendTextMessageAsync(message, messageCode);
+            await message.Accept(this);
         }
 
         public async Task Visit(TextUpdateMessage message)

@@ -53,7 +53,7 @@ namespace Chartix.Infrastructure.Telegram.Services
                     return;
                 }
 
-                await message.Accept(_processMessageVisitor);
+                await _processMessageVisitor.Process(message);
 
                 SaveProccessedMessage(message.UpdateId, message.ChatId);
             }
